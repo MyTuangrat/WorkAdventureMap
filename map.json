@@ -170,7 +170,7 @@
         {
          "columns":18,
          "firstgid":1,
-         "image":"..\/depositphotos_575856500-stock-illustration-grass-pixel-art-background-grass.jpg",
+         "image":"/depositphotos_575856500-stock-illustration-grass-pixel-art-background-grass.jpg",
          "imageheight":600,
          "imagewidth":600,
          "margin":0,
@@ -183,7 +183,7 @@
         {
          "columns":19,
          "firstgid":325,
-         "image":"..\/istockphoto-483883932-612x612.jpg",
+         "image":"/istockphoto-483883932-612x612.jpg",
          "imageheight":384,
          "imagewidth":612,
          "margin":0,
@@ -196,7 +196,7 @@
         {
          "columns":31,
          "firstgid":553,
-         "image":"..\/35063e.png",
+         "image":"/35063e.png",
          "imageheight":1000,
          "imagewidth":1000,
          "margin":0,
@@ -209,7 +209,7 @@
         {
          "columns":17,
          "firstgid":1514,
-         "image":"..\/images.jfif",
+         "image":"/images.jfif",
          "imageheight":365,
          "imagewidth":547,
          "margin":0,
