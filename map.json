@@ -1,4 +1,12 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"json",
+         "target":"..\/Downloads\/map.json"
+        }
+    },
  "height":78,
  "infinite":false,
  "layers":[
@@ -475,7 +483,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"collisions",
+                 "name":"collides",
                  "type":"bool",
                  "value":true
                 }],
@@ -526,7 +534,7 @@
                 {
                  "height":381.333333333333,
                  "id":16,
-                 "name":"meeting room",
+                 "name":"meeting-room",
                  "opacity":1,
                  "rotation":0,
                  "type":"",
