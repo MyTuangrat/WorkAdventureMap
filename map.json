@@ -3,8 +3,7 @@
     {
      "export":
         {
-         "format":"json",
-         "target":"..\/Downloads\/map.json"
+         "format":"json"
         }
     },
  "height":78,
@@ -107,7 +106,7 @@
                 {
                  "height":0,
                  "id":14,
-                 "name":"",
+                 "name":"collides",
                  "opacity":1,
                  "polygon":[
                         {
@@ -469,7 +468,7 @@
                         }],
                  "properties":[
                         {
-                         "name":"collisions",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }],
