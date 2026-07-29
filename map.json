@@ -1,12 +1,4 @@
 { "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "format":"json",
-         "target":"map.tmj"
-        }
-    },
  "height":78,
  "infinite":false,
  "layers":[
@@ -258,7 +250,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"https:\/\/raw.githubusercontent.com\/MyTuangrat\/WorkAdventureMap\/refs\/heads\/main\/script.js"
+         "value":"https:\/\/cdn.jsdelivr.net\/gh\/MyTuangrat\/WorkAdventureMap@main\/script.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.12.2",
