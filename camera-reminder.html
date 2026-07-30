@@ -39,6 +39,14 @@
   <div class="icon">📷</div>
   <h2>Please turn on your camera</h2>
   <p>Cameras should be turned on when you are in the meeting room.</p>
-  <button onclick="WA.ui.modal.closeModal()">Got it!</button>
+  <button id="gotItBtn">Got it!</button>
+
+  <script>
+    WA.onInit().then(() => {
+      document.getElementById("gotItBtn").addEventListener("click", () => {
+        WA.ui.modal.closeModal();
+      });
+    });
+  </script>
 </body>
 </html>
