@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 10000;
 
 // ✅ เปลี่ยนตรงนี้เป็น URL ของ Apps Script ที่เพิ่ง Deploy เสร็จ
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwue8TPXPPvj6tVBZgpRWKmKyUgikkufLc6-0rvAAMnaQl--ZhnUOpSWrlCq-Kx61dr-g/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxadrSxwwAY6BA1We9iTuZT8Xagzse04bo0b_TkwSgjMjzOaIsM6z5vTRNb3ejRgY3QYQ/exec";
 
 app.use(cors());          // อนุญาตให้เว็บอื่น (แมพ WorkAdventure) ยิงมาหาเราได้
 app.use(express.json());  // ให้ Express อ่าน JSON body ได้
