@@ -226,16 +226,16 @@
          "name":"Room",
          "objects":[
                 {
-                 "height":381.333333333333,
-                 "id":16,
+                 "height":498,
+                 "id":52,
                  "name":"meeting-room",
                  "opacity":1,
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
-                 "width":582.666666666667,
-                 "x":941.333333333333,
-                 "y":546.666666666667
+                 "width":604,
+                 "x":932,
+                 "y":424
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -243,8 +243,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":11,
- "nextobjectid":52,
+ "nextlayerid":12,
+ "nextobjectid":53,
  "orientation":"orthogonal",
  "properties":[
         {
