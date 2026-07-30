@@ -31,19 +31,12 @@ WA.onInit().then(() => {
         .catch((err) => console.error("❌ ส่งข้อมูลไม่สำเร็จ", err));
     });
 });
-// ✅ Popup reminder to turn on the camera when entering the meeting room
+// ✅ Modal เตือนให้เปิดกล้อง (เด้งกลางจอ ขนาดใหญ่ ไม่ขึ้นกับ zoom)
     WA.room.area.onEnter("meeting-room").subscribe(() => {
-        WA.ui.openPopup(
-            "meeting-room",
-            "📷 Please turn on your camera when you are in the meeting room.",
-            [
-                {
-                    label: "Got it!",
-                    className: "primary",
-                    callback: (popup) => {
-                        popup.close();
-                    }
-                }
-            ]
-        );
+        WA.ui.modal.openModal({
+            title: "Camera Reminder",
+            src: "https://mytuangrat.github.io/WorkAdventureMap/camera-reminder.html",
+            position: "center",
+            allowFullScreen: false
+        });
     });
