@@ -31,3 +31,19 @@ WA.onInit().then(() => {
         .catch((err) => console.error("❌ ส่งข้อมูลไม่สำเร็จ", err));
     });
 });
+// ✅ Popup reminder to turn on the camera when entering the meeting room
+    WA.room.area.onEnter("meeting-room").subscribe(() => {
+        WA.ui.openPopup(
+            "meeting-room",
+            "📷 Please turn on your camera when you are in the meeting room.",
+            [
+                {
+                    label: "Got it!",
+                    className: "primary",
+                    callback: (popup) => {
+                        popup.close();
+                    }
+                }
+            ]
+        );
+    });
