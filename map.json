@@ -250,7 +250,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"https:\/\/cdn.jsdelivr.net\/gh\/MyTuangrat\/WorkAdventureMap@main\/script.js"
+         "value":"https:\/\/mytuangrat.github.io\/WorkAdventureMap\/script.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.12.2",
