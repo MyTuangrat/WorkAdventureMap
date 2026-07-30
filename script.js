@@ -30,19 +30,4 @@ WA.onInit().then(() => {
         .then(() => console.log("✅ ส่งข้อมูล meeting_room สำเร็จ"))
         .catch((err) => console.error("❌ ส่งข้อมูลไม่สำเร็จ", err));
     });
-
-    // ✅ เตะตัวเองออกช่วง 7:00-7:59 น. กันคนค้างในระบบ (จันทร์-ศุกร์)
-    let kickedOut = false;
-    setInterval(() => {
-        const now = new Date();
-        const thTime = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Bangkok" }));
-        const hour = thTime.getHours();
-        const day = thTime.getDay(); // 0=อาทิตย์, 6=เสาร์
-
-if (day !== 0 && day !== 6 && hour === 9 && !kickedOut) {
-    kickedOut = true;
-    console.log("🧹 09:xx น. เตะตัวเองออกจากระบบ");
-    WA.nav.goToPage("https://mytuangrat.github.io/WorkAdventureMap/closed.html");
-}
-    }, 60 * 1000);
 });
