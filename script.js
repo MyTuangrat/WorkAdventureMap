@@ -39,10 +39,10 @@ WA.onInit().then(() => {
         const hour = thTime.getHours();
         const day = thTime.getDay(); // 0=อาทิตย์, 6=เสาร์
 
-        if (day !== 0 && day !== 6 && hour === 7 && !kickedOut) {
-            kickedOut = true;
-            console.log("🧹 07:xx น. เตะตัวเองออกจากระบบ");
-            WA.nav.goToPage("https://mytuangrat.github.io/WorkAdventureMap/closed.html");
-        }
+if (day !== 0 && day !== 6 && hour === 9 && !kickedOut) {
+    kickedOut = true;
+    console.log("🧹 09:xx น. เตะตัวเองออกจากระบบ");
+    WA.nav.goToPage("https://mytuangrat.github.io/WorkAdventureMap/closed.html");
+}
     }, 60 * 1000);
 });
